@@ -1,4 +1,4 @@
-package com.sp.fc;
+package com.sp.fc.web;
 
 
 import org.springframework.boot.SpringApplication;
@@ -8,9 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BasicTestApplication {
 
   public static void main(String[] args) {
-
-    Person person = Person.builder().name("test").build();
-    System.out.println(person.getName());
 
     SpringApplication.run(BasicTestApplication.class, args);
 
